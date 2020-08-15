@@ -1,0 +1,97 @@
+{
+    // app window customisations
+    // *************************
+    "window.zoomLevel": -0.8,
+    //"eslint.autoFixOnSave": true,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // Terminal customisations
+    // ***********************
+    "terminal.integrated.fontFamily": " 'MesloLGS NF' ",
+    "terminal.integrated.fontSize": 11,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.inheritEnv": true,
+    // workbench customisations
+    // ************************
+    "workbench.colorTheme": "Radical",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.tree.indent": 16,
+    "workbench.colorCustomizations": {
+        // "editorIndentGuide.activeBackground": "#d3ba12",
+        // "editorIndentGuide.background": "#3a3833",
+        // // bio dark theme
+        // "sideBar.background": "#202835",
+        // "activityBar.background": "#202835",
+        // "activityBar.inactiveForeground": "#5c566c",
+        // "activityBar.foreground": "#807596",
+        // "activityBar.border": "#191e26",
+        // "terminal.background": "#1e242e",
+        // "panel.background": "#1e242e"
+        // *************************
+        // specific to radical theme
+        //"panel.border": "#8c2c56",
+        //"sideBar.border": "#8c2c56"
+        "titleBar.activeBackground": "#100f1a",
+        //"titleBar.activeForeground": "#bd4d9e",
+        "sideBar.background": "#100f1a",
+        "sideBar.border": "#631a41",
+        "titleBar.border": "#631a41",
+        "panel.border": "#631a41",
+        //"activityBar.border": "#693939",
+    },
+    // editor customisations
+    // *********************
+    "editor.minimap.scale": 2,
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "'Operator Mono Lig', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 15,
+    "editor.fontWeight": "300",
+    "editor.suggestSelection": "first",
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.tokenColorCustomizations": {
+        "comments": "#4d5354",
+        //"strings": "#739261",
+        "textMateRules": [
+            {
+                "scope": "keyword, keyword.declaration.dart, storage.type, comment",
+                "settings": {
+                    "fontStyle": "italic "
+                }
+            }
+        ]
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "python.jediEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E402,F841,F401,E302,E305, E722, W503",
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": true,
+    //"python.pythonPath": "/Users/ed/opt/miniconda3/envs/mlkit/bin/python",
+    //"python.pythonPath": "/Users/ed/opt/miniconda3/envs/pykit/bin/python",
+    "python.pythonPath": "~/opt/anaconda3/envs/pykit/bin/python",
+    //"python.dataScience.runStartupCommands": "%config IPCompleter.use_jedi = False",
+    "python.formatting.provider": "black",
+    "python.languageServer": "Pylance",
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "python": "$pythonPath -u $fullFileName",
+        "csharp": "scriptcs",
+        "typescript": "ts-node"
+    },
+    "code-runner.showExecutionMessage": false,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.renderSideBySide": false,
+}
